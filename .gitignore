@@ -1,1 +1,4 @@
-.idea/
+.idea/workspace.xml
+gulfile.js
+package-lock.json
+node_modules/*

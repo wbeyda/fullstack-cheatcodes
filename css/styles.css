@@ -1,0 +1,360 @@
+@font-face{
+    font-family: 'Anton', sans-serif;
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+}
+.header-container {
+    background: url(../images/2716v2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1127px;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    font-family: Montserrat;
+    color:white;
+    font-size: 1.3em;
+    padding: 1em;
+    white-space: nowrap;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.menu {
+    padding: 1em;
+    color: white;
+    font-family: Montserrat;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+.learntocode {
+    color: white;
+    font-family: Anton;
+    padding-top: 7em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.buildproj {
+    color: white;
+    padding-top: 2em;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+.joinbutton button {
+    width: 17em;
+    height: 4em;
+}
+.joinbutton { padding-top: 15em}
+.joinbutton button {
+    width: 7em;
+    height: 2em;
+    font-family: Anton;
+    font-size: 3em;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.whiteblocks {
+    position: relative;
+    bottom: 3em;
+    background: white;
+    border-radius: 10px;
+}
+.whiteblock-image img {
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding: 2rem;
+}
+.whiteblocks h3 {
+    font-family: Anton;
+    padding: 0.5em;
+    text-align: center;
+}
+.tech {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-family: Montserrat;
+    background: linear-gradient(90deg, #12054D 0%, #18A3CC 100%);
+    height: 5rem;
+}
+.whatis h2 {
+    margin: auto;
+    text-align: center;
+    font-family: Anton;
+    padding: 2rem;
+    font-size: 3rem;
+}
+.whatis {
+    color: #15578f;
+    padding: 4rem;
+}
+.whatisp h3 {
+    font-family: Montserrat;
+    padding: 1rem;
+    text-align: center;
+}
+.whatisp li::before {
+    padding: 1rem;
+}
+.whatisp ul li {
+    text-decoration: brown;
+    list-style-type: none;
+}
+.col-12.spacer {
+    margin: 0 0 8rem 0;
+}
+.fa-check {
+    padding: 1rem;
+    color: #19abd0;
+}
+.fas.fa-laptop-code.fa-7x {
+    text-align: center;
+    padding: 3rem;
+}
+.support-wrapper.align-items-center {
+    margin: 2rem;
+}
+.front-text h2 {
+    padding: 3rem;
+    font-family: Anton;
+    font-size: 3rem;
+    color: #303556;
+}
+.front-text p {
+    position: relative;
+    padding: 3rem;
+}
+.col-6.joinbtn {
+    padding: 3rem;
+}
+.right-img img {
+    width: 100%;
+    padding: 1rem;
+    padding: 3rem 0 0 0;
+    margin: 0;
+}
+.row.aboutimagerow {
+    margin: 3rem 0 0;
+}
+.row.joinbtnrow {
+    margin: 0 0 3rem 0;
+    left: 3rem;
+    position: relative;
+    top: -6rem;
+}
+#devsalary {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+.container-fluid.howmuch {
+    margin: auto;
+    text-align: center;
+    background: #25ddf0;
+}
+
+.col-6.femaledev img {
+    width: 100%;
+    border-radius: 10px;
+}
+.whycode h2 {
+    font-family: Anton;
+    font-size: 3rem;
+    color: #629be9;
+}
+.whycode p {
+    font-family: Montserrat;
+}
+.row.whycode {
+    margin: 8rem 0 8rem 0;
+}
+.row.whycode p {
+    padding: 3rem 3rem 0 0;
+}
+footer {
+    background-color: #521385;
+    color: white;
+    font-family: Montserrat;
+    list-style-type: none;
+}
+footer li {
+    list-style-type: none;
+}
+footer a {
+    color: white;
+}
+.footer-wrappper.footer-bg {
+    padding: 5rem 5rem 0;
+    white-space: nowrap;
+}
+.footer-logo.mb-25 h2 {
+    white-space: nowrap;
+    font-weight: 900;
+}
+.footer-tittle h4 {
+    white-space: nowrap;
+}
+.footer-tittle li {
+    padding: 0.5rem;
+}
+.footer-bottom-area {
+    padding: 6rem 0 1rem 0;
+}
+.footer-tittle h4 {
+    font-weight: 900;
+}
+.footer-wrappper.footer-bg a:hover {
+    color: #12054d;
+    text-decoration: none;
+}
+.fa.fa-heart {
+    color: #fe6efe;
+}
+.ci {
+    background: #7327b0;
+    padding: 15px;
+    border-radius: 51%;
+    margin: 1rem 2rem 0 0;
+}
+.footer-tittle ul {
+    padding: 0;
+    margin: 0 0 0 -0.5rem;
+}
+.container-fluid.whyus {
+    background: linear-gradient(180deg, #12054D 0%, #07011e 100%);
+}
+.col.whyuscol h2 {
+    text-align: center;
+    font-family: Anton;
+    color: white;
+    padding: 3rem;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.col.extensive p {
+    text-align: center;
+    color: #4f3ca6;
+    font-family: Montserrat;
+}
+.col-4.alotofboot img {
+    display: block;
+    padding: 5rem;
+}
+.col-4.alotofboot p {
+    margin: 2rem;
+    color: #a0a0a0;
+}
+.col-6.courses {
+    margin: 5rem 0;
+    width: 90%;
+}
+.col-6.courses h1 {
+    font-family: Montserrat;
+    color: #bf71ff;
+}
+#courses {
+    font-family: Montserrat;
+    color: #b074ff;
+}
+.courses h3 {
+    font-size: 1.75rem;
+    font-family: Montserrat;
+    color: #a077ff;
+}
+.courses p{
+    width: 70%;
+}
+#tuition {
+    color: #7187ff;
+    font-size: 3rem;
+    font-family: anton;
+}
+.mission {
+    text-align: center;
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("../images/codingbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: lighten;
+    padding: 4rem;
+    color: white;
+    font-family: Montserrat;
+}
+.mission h1 {
+    font-family: Anton;
+}
+.col-12.heading h1 {
+    text-align: center;
+    margin: 8rem;
+    font-family: Anton;
+    color: #7187ff;
+}
+.col-4.avatars {
+    text-align: center;
+    margin: 0 0 8rem 0;
+    font-family: Montserrat;
+}
+.col-4.avatars img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 0 4rem 0;
+}
+.pricing {text-align: center}
+.pricing h1 {
+    color:#7187ff;
+    padding: 3rem;
+}
+.pricing p { font-family: Montserrat;}
+.header {font-family: Anton;}
+.col-6.pricing.whatisp li {
+    text-align: left;
+}
+.frameworks img {
+    height: 100px;
+    margin: 3rem;
+}
+.pricing h1 {
+    color: #7187ff;
+    padding: 3rem;
+    font-size: 7rem;
+}
+.col-6.pricing.whatisp.techlist {
+    margin-bottom: 1rem;
+}
+.admissions {
+    color: #19abd0;
+    text-align: center;
+}
+.payments {
+    text-align: center;
+}
+.livecont {
+    margin-top: 7rem;
+}
+.col-6.liveprojects.left-side-col-6 {
+    font-family: Montserrat;
+    font-size: 2rem;
+    color: #3222eb;
+    padding-top: 10rem;
+}
+.right-side-col-6 ul {
+    font-family: Montserrat;
+    font-size: 1rem;
+    color: #3222eb;
+    padding-top: 10rem;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 3rem 0 0 11rem;
+}
+.col-6.liveprojects.right-side-col-6 h1 {
+    color: #4d0086;
+    font-family: Anton;
+    font-size: 4rem;
+    padding: 7rem 0 0 6rem;
+}

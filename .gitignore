@@ -1,4 +1,5 @@
 .idea/workspace.xml
+.idea/vcs.xml
 gulfile.js
 package-lock.json
 node_modules/*
@@ -7,3 +8,4 @@ node_modules/*
 !node_modules/@fortawesome/fontawesome-free/css/solid.css
 !node_modules/@fortawesome/fontawesome-free/css/brands.css
 
+gulpfile.js

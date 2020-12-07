@@ -358,3 +358,6 @@ footer a {
     font-size: 4rem;
     padding: 7rem 0 0 6rem;
 }
+.row.course-overview {
+    margin: 0 0 7rem;
+}

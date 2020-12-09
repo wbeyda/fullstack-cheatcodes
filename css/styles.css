@@ -22,6 +22,36 @@
     left: 0%;
     top: 0%;
 }
+.nav-link #navBars {
+margin-top: -3px;
+padding: 8px 15px 3px;
+border: 1px solid rgba(0,0,0,.125);
+border-radius: .25rem;
+}
+
+.nav-link #navBars input {
+display: none;
+}
+
+.nav-link #navBars span {
+position: relative;
+z-index: 1;
+display: block;
+margin-bottom: 6px;
+width: 24px;
+height: 2px;
+background-color: rgba(125, 125, 126, 1);
+border-radius: .25rem;
+}
+
+.bg-dark {
+    background-color: #12054d !important;
+}
+
+.nav-link {
+    font-family: Montserrat;
+    font-weight: bold;
+}
 .menu {
     padding: 1em;
     color: white;

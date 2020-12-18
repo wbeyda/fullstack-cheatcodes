@@ -190,7 +190,7 @@ border-radius: .25rem;
     background: #25ddf0;
 }
 
-.col-6.femaledev img {
+.col-lg-6.femaledev img {
     width: 100%;
     border-radius: 10px;
 }
@@ -260,7 +260,8 @@ footer a {
 .container-fluid.whyus {
     background: linear-gradient(180deg, #12054D 0%, #07011e 100%);
 }
-.col.whyuscol h2 {
+
+.col-lg-12.whyuscol h2 {
     text-align: center;
     font-family: Anton;
     color: white;
@@ -268,18 +269,21 @@ footer a {
     font-weight: 900;
     font-size: 2rem;
 }
-.col.extensive p {
+.col-lg-12.extensive.offset-lg-4 p {
     text-align: center;
     color: #4f3ca6;
     font-family: Montserrat;
+    max-width: 50%;
 }
-.col-4.alotofboot img {
+.col-lg-4.alotofboot img {
     display: block;
     padding: 5rem;
 }
-.col-4.alotofboot p {
+.col-lg-4.alotofboot p {
     margin: 2rem;
-    color: #a0a0a0;
+    color: #7b5cff;
+}
+.col-lg-4.alotofboot.col-sm-12 p {
 }
 .col-6.courses {
     margin: 5rem 0;
@@ -325,12 +329,12 @@ footer a {
     font-family: Anton;
     color: #7187ff;
 }
-.col-4.avatars {
+.col-lg-4.avatars {
     text-align: center;
     margin: 0 0 8rem 0;
     font-family: Montserrat;
 }
-.col-4.avatars img {
+.col-lg-4.avatars img {
     width: 200px;
     border-radius: 50%;
     margin: 0 0 4rem 0;
@@ -367,7 +371,7 @@ footer a {
 .livecont {
     margin-top: 7rem;
 }
-.col-6.liveprojects.left-side-col-6 {
+.col-lg-6.liveprojects.left-side-col-6 {
     font-family: Montserrat;
     font-size: 2rem;
     color: #3222eb;
@@ -382,7 +386,7 @@ footer a {
     list-style-type: none;
     padding: 3rem 0 0 11rem;
 }
-.col-6.liveprojects.right-side-col-6 h1 {
+.col-lg-6.liveprojects.right-side-col-6 h1 {
     color: #4d0086;
     font-family: Anton;
     font-size: 4rem;
@@ -390,4 +394,115 @@ footer a {
 }
 .row.course-overview {
     margin: 0 0 7rem;
+}
+
+
+@media (max-width: 480px){
+    .header-container {
+        background: url(../images/2716v2.jpg);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-size: auto;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 565px;
+        padding: 0;
+        margin: 0;
+        background-position: calc(100% - -91px) calc(100% - -17px);
+    }
+    .learntocode {
+        color: white;
+        font-family: Anton;
+        padding-top: 0em;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+    .col-lg-3.learntocode h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+    .buildproj {
+        color: white;
+        padding-top: 0em;
+        text-align: justify;
+        font-family: Montserrat;
+        font-size: 0.7rem;
+    }
+    .whiteblocks {
+        position: relative;
+        bottom: 2em;
+        background: white;
+        border-radius: 10px;
+        right: -1rem;
+    }
+    .whiteblocks h3 {
+        font-family: Anton;
+        padding: 0.5em;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .col-sm-12.femaledev img {
+        width: 100%;
+    }
+    .col-12.front-text img {
+        width: 110%;
+        left: -5%;
+        position: relative;
+    }
+    .joinbtnrow {
+        margin: 0 0 3rem 0;
+        left: 3rem;
+        position: relative;
+        top: 0px !important;
+    }
+    #our10week {width: 83%;}
+    .col-lg-12.extensive.offset-lg-4 p {
+        max-width: 100%;
+    }
+    .courses img {
+        width: 100%;
+        padding: 1rem;
+        margin: 3rem 0;
+    }
+    #tuition {
+        color: #7187ff;
+        font-size: 2.8rem;
+        font-family: anton;
+    }
+    .mission h3 {
+        font-size: 0.8em;
+    }
+    .frameworks img {
+        width: 6rem;
+        padding: 0;
+        margin: 2rem 0px;
+    }
+    .pricing {
+        text-align: left;
+    }
+    .pricing h2 {
+        font-size: 1.5rem;
+    }
+    .liveprojects img {
+        max-width: 100%;
+    }
+    .liveprojects {
+        padding-top: 0;
+    }
+    .col-lg-6.liveprojects.left-side-col-6 {
+        font-family: Montserrat;
+        font-size: 2rem;
+        color: #3222eb;
+        padding-top: 0rem;
+    }
+    .footer-copy-right.text-center {
+        font-size: 0.6rem;
+        position: absolute;
+        right: -3rem;
+    }
 }
